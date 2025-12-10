@@ -1,15 +1,20 @@
+/////////////////
+Write an 8086 assembly language program (using emu8086) that displays the phrase 'My name is' followed by a line break, and then displays the name 'Abid Shahriar' on the next line, using separate string variables for each word and manually inserting spaces and the line break sequence (0AH and 0DH).
+
+
+
 .model small
 .stack 100h
 .data
    
 ; My name is
-; Akib   
+; Abid Shahriar 
    
 ;variable declaring
 sent1 db 'My$'
 sent2 db 'name$'
 sent3 db 'is$'
-sent4 db 'Akib$'
+sent4 db 'Abid Shahriar$'
 
 .code
 
