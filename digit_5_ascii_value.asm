@@ -1,3 +1,6 @@
+"Write an 8086 assembly language program (using emu8086) that prompts the user for a single character input, compares its ASCII value to the ASCII value of the digit '5' (35H), and then displays one of the following messages using conditional jumps: 'User input is equal to 5', 'User input is greater than 5', or 'User input is less than 5'."
+
+
 .model small
 .stack 100h
 .data
