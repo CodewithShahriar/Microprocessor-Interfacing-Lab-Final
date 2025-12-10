@@ -1,3 +1,8 @@
+//////////////
+Write a single 8086 assembly language program (using emu8086) that first reads an uppercase letter and converts it to its corresponding lowercase letter for display, and then immediately reads a lowercase letter and converts it to its corresponding uppercase letter for display.
+
+
+
 .model small
 .stack 100h
 
