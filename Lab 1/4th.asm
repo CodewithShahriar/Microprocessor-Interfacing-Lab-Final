@@ -1,3 +1,8 @@
+//////////////////
+Write a single 8086 assembly language program (using emu8086) that first performs the addition of two single-digit numbers (0-9) taken from the user, displays the sum, and immediately after, performs the subtraction of two more single-digit numbers taken from the user, and displays the difference.
+
+
+
 .model small
 .stack 100h
 
